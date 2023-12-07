@@ -8,8 +8,8 @@ const ExperienceList = () => {
   return (
     <>
       <div>
-        {data.map((object) => (
-          <ListComponent data={object} />
+        {data.map((object, i) => (
+          <ListComponent key={i} data={object} />
         ))}
       </div>
       <div className="full-resume">

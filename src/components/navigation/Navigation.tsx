@@ -5,15 +5,19 @@ const Navigation = () => {
     <div>
       <div className="link-container">
         <div className="straight-line"></div>
-        <a className="link">ABOUT</a>
+        <a className="link" href="about">
+          ABOUT
+        </a>
       </div>
       <div className="link-container">
         <div className="straight-line"></div>
-        <a className="link">EXPERIENCE</a>
+        <a className="link" href="#experience">
+          EXPERIENCE
+        </a>
       </div>
       <div className="link-container">
         <div className="straight-line"></div>
-        <a className="link" href="project-container">
+        <a className="link" href="#projects">
           PROJECTS
         </a>
       </div>

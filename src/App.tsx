@@ -31,11 +31,13 @@ function App() {
           </div>
         </div>
         <div className="resume-container">
-          <About />
-          <div className="experience-list">
+          <div id="about">
+            <About />
+          </div>
+          <div className="experience-list" id="experience">
             <ExperienceList />
           </div>
-          <div className="summary">
+          <div className="summary" id="projects">
             <WebsiteSummary />
           </div>
         </div>

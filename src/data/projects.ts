@@ -49,7 +49,8 @@ export const data = [
   {
     type: "project",
     title: "Game Discovery App",
-    description: "lorem ipsum hej",
+    description:
+      "A game discovery website application where you can search for games and filter. All the data is fetched through the Rawg API",
     imageURL: gameDiscoveryProjectImage,
     projectURL: "https://game-discovery-portfolio.netlify.app/",
     tags: ["React", "Typescript", "Rawg API", "Chakra UI"],
