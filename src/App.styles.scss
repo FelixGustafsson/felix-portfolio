@@ -1,26 +1,31 @@
 .main-container {
-    display: flex;
-    width: fit-content;
-    margin-top: 10%;
+  display: flex;
+  width: fit-content;
+  margin-top: 10%;
 }
 
 .info-container {
-    margin-left: 20%;
-    position: fixed;
+  margin-left: 20%;
+  position: fixed;
 }
 
 .resume-container {
-    margin-left: 50%;
+  margin-left: 50%;
+  width: 36%;
 }
 
 .projects-list {
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .navigation {
-    margin-top: 6rem;
+  margin-top: 6rem;
 }
 
 .socials {
-    margin-top: 6rem;
+  margin-top: 6rem;
+}
+
+.experience-list {
+  margin-top: 8rem;
 }
