@@ -16,7 +16,10 @@ const SocialIcons = () => {
         </a>
       </div>
       <div className="contact">
-        Email: felixgustafssong@gmail.com
+        Email:{" "}
+        <a href="mailto:felixgustafssong@gmail.com?">
+          felixgustafssong@gmail.com
+        </a>
         <br />
         Phone: +46733461297
       </div>
