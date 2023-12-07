@@ -1,0 +1,38 @@
+.link-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+}
+
+.link-container:hover {
+    cursor: pointer;
+
+    .straight-line {
+        border-top: solid white 2px;
+        width: 4rem;
+    }
+
+    .link {
+        font-family: 'Open Sans', sans-serif;
+        color: white;
+    }
+}
+
+.link {
+    font-family: 'Open Sans', sans-serif;
+    color: #6e6e6e;
+}
+
+
+
+.straight-line {
+    border-top: solid #6e6e6e 2px;
+    width: 3rem;
+}
+
+
+
+a {
+    padding-left: 10px;
+}
