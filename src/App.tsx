@@ -6,6 +6,7 @@ import AnimatedCursor from "react-animated-cursor";
 
 import "./App.styles.scss";
 import ExperienceList from "./components/list/ExperienceList";
+import WebsiteSummary from "./components/websiteSummary/WebsiteSummary";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         color="0, 60, 255"
         outerAlpha={0.2}
         innerScale={0.7}
-        outerScale={10}
+        outerScale={7}
         clickables={["a", "button"]}
       />
       <main className="main-container">
@@ -33,6 +34,9 @@ function App() {
           <About />
           <div className="experience-list">
             <ExperienceList />
+          </div>
+          <div className="summary">
+            <WebsiteSummary />
           </div>
         </div>
       </main>

@@ -18,7 +18,7 @@ interface Props {
 const ListComponent = ({ data }: Props) => {
   if (data.type === "project") {
     return (
-      <a href={data.projectURL}>
+      <a href={data.projectURL} target="_blank">
         <div className="project-container">
           <img src={data.imageURL} alt={data.title + " Image"} />
           <div>

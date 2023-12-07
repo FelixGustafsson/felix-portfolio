@@ -5,9 +5,15 @@ const SocialIcons = () => {
   return (
     <>
       <div className="icons-container">
-        <FaGithub className="icon" />
-        <FaInstagram className="icon" />
-        <FaLinkedin className="icon" />
+        <a href="https://github.com/FelixGustafsson" target="_blank">
+          <FaGithub className="icon" />
+        </a>
+        <a href="https://www.instagram.com/felix_gustafssonn/" target="_blank">
+          <FaInstagram className="icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/felix-gustafsson/" target="_blank">
+          <FaLinkedin className="icon" />
+        </a>
       </div>
       <div className="contact">
         Email: felixgustafssong@gmail.com
