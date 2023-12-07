@@ -13,9 +13,9 @@ const About = () => {
                 Right now, I'm looking for a job as a frontend developer in order to get hands on experience from working in the industry but also to grow as a developer.
                 <br />
                 <br />
-                Aside from tech, I love hunting, being outdoors in the forest and playing golf.</p>
+                Aside from tech, I love hunting, being outdoors in the forest, playing golf, and skiing.</p>
         </div>
     )
 }
 
-export default About
+export default About;

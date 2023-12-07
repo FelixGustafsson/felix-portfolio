@@ -5,4 +5,4 @@ I'm Currently living outside of Malmö, Sweden with my two cats. I've always had
 
 Right now, I'm looking for a job as a frontend developer in order to get som hands on experience from working in the industry but also to grow as a developer.\n
 
-Aside from tech, I love hunting, being outdoors in the forest and playing golf.`
+Aside from tech, I love hunting, being outdoors in the forest, playing golf, and skiing.`

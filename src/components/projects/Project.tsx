@@ -6,6 +6,7 @@ interface Project {
     description: string;
     imageURL: string;
     projectURL: string;
+    tags: string[];
 }
 interface Props {
     project: Project;
@@ -18,6 +19,11 @@ const Project = ({ project }: Props) => {
             <div>
                 <h2>{project.title} <span><MdArrowOutward /></span></h2>
                 <p className="paragraph">{project.description}</p>
+                <div className="tags-container">
+                    {project.tags.map((tag, i) => (
+                        <span key={i} className="tag">{tag}</span>
+                    ))}
+                </div>
             </div>
         </div>
     )
