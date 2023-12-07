@@ -1,0 +1,15 @@
+.project-container {
+    display: flex;
+
+    img {
+        width: 10rem;
+        height: 6rem;
+        overflow: hidden;
+        border-radius: 15px;
+        border: solid rgb(118, 159, 247)
+    }
+
+    div {
+        margin-left: 2rem;
+    }
+}
