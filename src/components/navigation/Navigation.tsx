@@ -5,7 +5,7 @@ const Navigation = () => {
     <div>
       <div className="link-container">
         <div className="straight-line"></div>
-        <a className="link" href="about">
+        <a className="link" href="#about">
           ABOUT
         </a>
       </div>
