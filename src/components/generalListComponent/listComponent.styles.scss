@@ -56,3 +56,102 @@
     }
   }
 }
+
+//This media query is for Large Laptops with sizes between 1440px and 1920px
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .experience-container {
+    display: flex;
+    margin-top: 2rem;
+    .dates {
+      width: 10rem;
+    }
+    .experience-info-container {
+      width: 32rem;
+      padding-left: 3.5rem;
+    }
+  }
+}
+
+//This media query is for smaller laptops with sizes between 1024px and 1440px
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .experience-container {
+    display: block;
+    margin-top: 4rem;
+    .experience-info-container {
+      width: auto;
+      padding: 0;
+    }
+  }
+
+  .project-container {
+    display: block;
+    margin-top: 4rem;
+    div {
+      width: auto;
+      margin: 0;
+    }
+  }
+}
+
+@media (min-width: 425px) and (max-width: 1023px) {
+  .experience-container {
+    display: block;
+    margin-top: 4rem;
+
+    .dates {
+      width: auto;
+    }
+    .experience-info-container {
+      width: auto;
+      padding: 0;
+    }
+  }
+
+  .project-container {
+    display: block;
+    margin-top: 4rem;
+    div {
+      width: auto;
+      margin: 0;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .experience-container {
+    display: block;
+    margin-top: 4rem;
+
+    .dates {
+      width: auto;
+    }
+    .experience-info-container {
+      width: auto;
+      padding: 0;
+    }
+
+    .tags-container {
+      display: flex;
+      flex-direction: column;
+      .tag {
+        width: fit-content;
+      }
+    }
+  }
+
+  .project-container {
+    display: block;
+    margin-top: 4rem;
+    div {
+      width: auto;
+      margin: 0;
+      .tags-container {
+        display: flex;
+        flex-direction: column;
+        .tag {
+          width: fit-content;
+        }
+      }
+    }
+  }
+}

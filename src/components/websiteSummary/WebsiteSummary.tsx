@@ -1,7 +1,7 @@
 const WebsiteSummary = () => {
   return (
     <>
-      <p className="paragraph" style={{ width: "70%" }}>
+      <p className="paragraph">
         Loosely designed in{" "}
         <a href="https://www.figma.com/" target="_blank">
           Figma

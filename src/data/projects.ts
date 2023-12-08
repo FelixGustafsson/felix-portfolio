@@ -24,7 +24,7 @@ export const data = [
     title: "Salesperson | Elgiganten",
     location: "Malmö, Sweden",
     description:
-      "Sold various technology products along with upselling in the form of services.sdfdsfsdfsdfdsfsdfsd",
+      "Sold various technology products along with upselling in the form of services.",
     tags: ["Teamwork", "Stress management", "Technology"],
     dates: "2022 - 2023",
   },
@@ -42,7 +42,7 @@ export const data = [
     title: "Salesperson | Mediamarkt",
     location: "Malmö, Sweden",
     description:
-      "Sold various technology products along with upselling in the form of services.sdfdsfsdfsdfdsfsdfsd",
+      "Sold various technology products along with upselling in the form of services.",
     tags: ["Teamwork", "Stress management", "Network technology"],
     dates: "2020 - 2022",
   },
@@ -50,7 +50,7 @@ export const data = [
     type: "project",
     title: "Game Discovery App",
     description:
-      "A game discovery website application where you can search for games and filter. All the data is fetched through the Rawg API",
+      "A game discovery website application where you can search for games and filter. All the data is fetched through the Rawg API.",
     imageURL: gameDiscoveryProjectImage,
     projectURL: "https://game-discovery-portfolio.netlify.app/",
     tags: ["React", "Typescript", "Rawg API", "Chakra UI"],

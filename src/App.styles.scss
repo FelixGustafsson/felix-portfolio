@@ -34,3 +34,85 @@
   margin-top: 5rem;
   margin-bottom: 5rem;
 }
+
+//This media query is for Large Laptops with sizes between 1440px and 1920px
+@media (min-width: 1440px) and (max-width: 1919px) {
+  .socials {
+    margin-top: 9rem;
+  }
+
+  .info-container {
+    margin-left: 13%;
+  }
+
+  .resume-container {
+    width: 43%;
+    margin-left: 46%;
+  }
+}
+
+//This media query is for smaller laptops with sizes between 1024px and 1440px
+@media (min-width: 1024px) and (max-width: 1439px) {
+  .socials {
+    margin-top: 9rem;
+  }
+
+  .info-container {
+    margin-left: 10%;
+  }
+
+  .resume-container {
+    width: 43%;
+    margin-left: 50%;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 1023px) {
+  .main-container {
+    display: block;
+  }
+
+  .info-container {
+    margin-left: 15%;
+    position: static;
+  }
+
+  .resume-container {
+    margin-left: 15%;
+    width: 80%;
+    margin-top: 5rem;
+  }
+
+  .navigation {
+    margin-top: 2rem;
+  }
+
+  .socials {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 424px) {
+  .main-container {
+    display: block;
+  }
+
+  .info-container {
+    margin-left: 7%;
+    position: static;
+  }
+
+  .resume-container {
+    margin-left: 7%;
+    width: auto;
+    margin-top: 5rem;
+  }
+
+  .navigation {
+    margin-top: 2rem;
+  }
+
+  .socials {
+    margin-top: 2rem;
+  }
+}
