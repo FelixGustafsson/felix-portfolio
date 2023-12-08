@@ -1,0 +1,25 @@
+.tech-stack-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr auto;
+  padding: 3rem;
+  width: 60%;
+  gap: 2rem;
+  border: solid 2px rgb(118, 159, 247);
+  border-radius: 20px;
+}
+
+.icons {
+  size: "40";
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .tech-stack-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    padding: 2rem;
+    width: 70%;
+    gap: 2rem;
+    border: solid 2px rgb(118, 159, 247);
+    border-radius: 20px;
+  }
+}

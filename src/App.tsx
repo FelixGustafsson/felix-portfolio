@@ -7,6 +7,7 @@ import AnimatedCursor from "react-animated-cursor";
 import "./App.styles.scss";
 import ExperienceList from "./components/list/ExperienceList";
 import WebsiteSummary from "./components/websiteSummary/WebsiteSummary";
+import TechStackGrid from "./components/techstack/TechStackGrid";
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
           </div>
           <div className="experience-list" id="experience">
             <ExperienceList />
+          </div>
+          <div>
+            <TechStackGrid />
           </div>
           <div className="summary" id="projects">
             <WebsiteSummary />
