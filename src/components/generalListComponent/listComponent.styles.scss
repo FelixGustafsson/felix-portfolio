@@ -57,6 +57,13 @@
   }
 }
 
+.experience-container:hover {
+  background: rgb(221, 255, 252, 0.1);
+  border-radius: 20px;
+  padding: 1rem;
+  border: solid 1px rgba(157, 255, 247, 0.1);
+}
+
 //This media query is for Large Laptops with sizes between 1440px and 1920px
 @media (min-width: 1440px) and (max-width: 1919px) {
   .experience-container {

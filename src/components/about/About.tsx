@@ -8,7 +8,10 @@ const About = () => {
         Hi, I'm Felix! Soon to be Fullstack developer from Lund, Sweden with
         solid knowledge in web development. Currently studying at{" "}
         {
-          <a>
+          <a
+            href="https://teknikhogskolan.se/utbildningar/fullstackutvecklare-javascript/"
+            target="_blank"
+          >
             <span className="link-in-text">Teknikhögskolan</span>
           </a>
         }{" "}
@@ -22,12 +25,12 @@ const About = () => {
         to become the ultimate tech warrior.
         <br />
         <br />
-        Currently, I'm looking for a job as a developer in order to get hands on
-        experience from the industry but also to grow as a developer.
-        <br />
-        <br />
         Aside from tech, I love hunting, being outdoors in the forest, playing
         golf, and skiing.
+        <br />
+        <br />
+        Currently, I'm looking for a job as a developer in order to get hands on
+        experience from the industry but also to grow as a developer.
       </p>
     </div>
   );
