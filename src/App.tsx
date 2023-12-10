@@ -3,7 +3,6 @@ import Navigation from "./components/navigation/Navigation";
 import SocialIcons from "./components/socials/SocialIcons";
 import Title from "./components/title/Title";
 import AnimatedCursor from "react-animated-cursor";
-
 import "./App.styles.scss";
 import ExperienceList from "./components/list/ExperienceList";
 import WebsiteSummary from "./components/websiteSummary/WebsiteSummary";

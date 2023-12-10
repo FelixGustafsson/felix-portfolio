@@ -46,6 +46,7 @@ const ListComponent = ({ data }: Props) => {
         <div className="dates">{data.dates}</div>
         <div className="experience-info-container">
           <h2>{data.title}</h2>
+          <p className="paragraph">{data.location}</p>
           <p className="paragraph">{data.description}</p>
           <div className="tags-container">
             {data.tags.map((tag, i) => (
