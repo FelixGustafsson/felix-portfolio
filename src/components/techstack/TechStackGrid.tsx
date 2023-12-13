@@ -9,10 +9,13 @@ import {
   FaGitAlt,
   FaWordpress,
   FaReact,
+  FaGithub,
+  FaFigma 
 } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
+import { IoLogoJavascript, IoLogoFirebase } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
 import { TbDatabaseSearch, TbSeo } from "react-icons/tb";
+import { BsFiletypeJson } from "react-icons/bs";
 
 const TechStackGrid = () => {
   return (
@@ -30,10 +33,14 @@ const TechStackGrid = () => {
           <FaNodeJs />
           <FaPython />
           <FaGitAlt />
+          <FaGithub/>
+          <BsFiletypeJson/>
           <FaDocker />
           <FaWordpress />
           <TbSeo />
           <TbDatabaseSearch />
+          <IoLogoFirebase/>
+          <FaFigma/>
         </IconContext.Provider>
       </div>
     </>
