@@ -13,7 +13,12 @@ import {
   FaFigma,
 } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoFirebase } from 'react-icons/io5';
-import { SiTypescript, SiMysql, SiAdobephotoshop } from 'react-icons/si';
+import {
+  SiTypescript,
+  SiMysql,
+  SiAdobephotoshop,
+  SiMongodb,
+} from 'react-icons/si';
 import { TbDatabaseSearch, TbSeo, TbSql } from 'react-icons/tb';
 import { BsFiletypeJson } from 'react-icons/bs';
 
@@ -42,6 +47,7 @@ const TechStackGrid = () => {
           <TbDatabaseSearch />
           <IoLogoFirebase />
           <SiMysql />
+          <SiMongodb />
           <FaFigma />
           <SiAdobephotoshop />
         </IconContext.Provider>
