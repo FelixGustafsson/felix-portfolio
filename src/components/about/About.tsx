@@ -28,8 +28,6 @@ const About = () => {
         Aside from tech, I love hunting, cooking, playing
         golf, and skiing.
         <br />
-        <br />
-        Currently, I'm a freelance web developer and graphic designer.
       </p>
     </div>
   );
