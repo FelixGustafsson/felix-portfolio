@@ -2,7 +2,7 @@ import { data } from "../../data/projects";
 import ListComponent from "../generalListComponent/ListComponent";
 import { FaArrowRight } from "react-icons/fa6";
 import "./experienceList.styles.scss";
-import cv from "../../assets/Felix-Gustafsson-CV.pdf";
+import cv from "../../assets/felix-gustafsson-cv.pdf";
 
 const ExperienceList = () => {
   return (

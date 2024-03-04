@@ -4,6 +4,15 @@ import ecommerce from '../assets/ecommerce.png';
 export const data = [
   {
     type: 'experience',
+    title: 'Installation technician - Dell EMC',
+    location: 'Malmö, Sweden',
+    description:
+      'Install Dell EMC products at large data centers. The installation includes racking, cabling and configuring the products.',
+    tags: ['Dell EMC', 'Networks', 'Servers'],
+    dates: '2023 - PRESENT',
+  },
+  {
+    type: 'experience',
     title: 'Web development & IT-services',
     location: 'Lund, Sweden',
     description:
@@ -60,7 +69,7 @@ export const data = [
     type: 'project',
     title: 'Ecommerce App',
     description:
-      'A fully functional ecommerce website with authentication and connected database using firebase.',
+      'An ecommerce website with authentication and connected database using firebase.',
     imageURL: ecommerce,
     projectURL: 'https://felix-portfolio-ecommerce.netlify.app/',
     tags: ['React', 'Firebase', 'Styled Components'],

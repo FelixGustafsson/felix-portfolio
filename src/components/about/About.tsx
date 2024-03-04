@@ -6,7 +6,7 @@ const About = () => {
       <p className="paragraph">
         {" "}
         Hi, I'm Felix! Soon to be Fullstack developer from Lund, Sweden with
-        solid knowledge in web development. Currently studying at{" "}
+        solid knowledge in development, mainly focusing on the MERN stack. Currently studying at{" "}
         {
           <a
             href="https://teknikhogskolan.se/utbildningar/fullstackutvecklare-javascript/"
