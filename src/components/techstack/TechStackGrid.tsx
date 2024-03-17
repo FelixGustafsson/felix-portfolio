@@ -11,6 +11,7 @@ import {
   FaReact,
   FaGithub,
   FaFigma,
+  FaVuejs
 } from 'react-icons/fa';
 import { IoLogoJavascript, IoLogoFirebase } from 'react-icons/io5';
 import {
@@ -34,21 +35,22 @@ const TechStackGrid = () => {
           <FaCss3Alt />
           <IoLogoJavascript />
           <SiTypescript />
-          <FaReact />
-          <FaNodeJs />
           <FaPython />
+          <FaNodeJs />
+          <FaReact />
+          <FaVuejs />
           <TbSql />
           <FaGitAlt />
           <FaGithub />
           <BsFiletypeJson />
           <FaDocker />
-          <FaWordpress />
-          <TbSeo />
           <TbDatabaseSearch />
           <IoLogoFirebase />
           <SiMysql />
           <SiMongodb />
           <FaFigma />
+          <TbSeo />
+          <FaWordpress />
           <SiAdobephotoshop />
         </IconContext.Provider>
       </div>
