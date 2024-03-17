@@ -6,7 +6,7 @@ const About = () => {
       <p className="paragraph">
         {" "}
         Hi, I'm Felix! Soon to be Fullstack developer from Lund, Sweden with
-        solid knowledge in development, mainly focusing on the MERN stack. Currently studying at{" "}
+        solid knowledge in development, mainly focusing on the web. Currently studying at{" "}
         {
           <a
             href="https://teknikhogskolan.se/utbildningar/fullstackutvecklare-javascript/"
@@ -18,7 +18,7 @@ const About = () => {
         in Lund.
         <br />
         <br />
-        I'm Currently living in Lund, Sweden. I've always had a passion for
+        I'm currently living in Lund, Sweden. I've always had a passion for
         technology and especially programming since I was 13. That's when my
         grandpa gave me my first book about C++ and I was immediately hooked.
         Since then, I've taught myself many languages and software in my quest
