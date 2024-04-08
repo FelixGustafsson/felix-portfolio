@@ -19,8 +19,10 @@ import {
   SiMysql,
   SiAdobephotoshop,
   SiMongodb,
+  SiPrisma,
+  SiPostgresql
 } from 'react-icons/si';
-import { TbDatabaseSearch, TbSeo, TbSql } from 'react-icons/tb';
+import { TbDatabaseSearch, TbSeo, TbSql, TbBrandCypress } from 'react-icons/tb';
 import { BsFiletypeJson } from 'react-icons/bs';
 
 const TechStackGrid = () => {
@@ -44,10 +46,13 @@ const TechStackGrid = () => {
           <FaGithub />
           <BsFiletypeJson />
           <FaDocker />
+          <TbBrandCypress />
           <TbDatabaseSearch />
           <IoLogoFirebase />
           <SiMysql />
           <SiMongodb />
+          <SiPostgresql />
+          <SiPrisma />
           <FaFigma />
           <TbSeo />
           <FaWordpress />
